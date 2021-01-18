@@ -1,0 +1,98 @@
+/* navbar and it's elements */
+body {
+  background-color: #3d3e51;
+}
+.navbar {
+  background-color: #292b34;
+  overflow: auto;
+  height: 100%;
+  max-width: 27.407%;
+  margin: auto;
+  display: block;
+  color: #c1c1c1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 100px;
+  text-align: center;
+  z-index: 1;
+  border-top-right-radius: 9%;
+  box-shadow: 1px 1px 10px 7px #313242;
+}
+.content {
+  align-items: center;
+  align-content: center;
+}
+.navbar h2 {
+  text-align: center;
+  display: block;
+  padding: 0px 5px 0px 5px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: lighter;
+}
+.navbar .profile-picture {
+  padding: 0px 35px 0px 35px;
+}
+a {
+  text-decoration: none;
+  color: #c1c1c1;
+}
+.content a:hover {
+  color: white;
+  font-size: 0.93em;
+  transition: all 0.15s ease;
+}
+.navbar .content ul li {
+  list-style: none;
+  text-align: center;
+  margin: 25px;
+  display: block;
+  padding-right: 30px;
+  font-size: 110%;
+  padding-left: 15%;
+}
+.navbar ul li:hover {
+  transition: ease-out;
+}
+.navbar ul {
+  align-items: center;
+  align-content: center;
+  padding: 10px 10px 10px 10px !important;
+}
+.social {
+  list-style: none;
+  text-align: center;
+  margin: 25px;
+  display: block;
+  padding-right: 30px;
+  font-size: 110%;
+  padding-left: 15%;
+}
+.social ul li {
+  list-style: none;
+  display: inline;
+}
+.social a {
+  display: inline-block;
+  padding-right: 5px;
+  width: 18px;
+  height: 18px;
+  margin: auto;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 20px;
+  font-size: 120%;
+}
+.social .insta a:hover {
+  color: #bc2a8d;
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
+.social .facebook a:hover {
+  color: #3b5998;
+  transform: translateY(-5px);
+  transition: all 0.5s ease;
+}
